@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-const Canvas = ({ canvasData,handleTemizle ,setCanvasData }) => {
+const Canvas = ({ canvasData,handleTemizle ,setcanvasData }) => {
   const [temizle, setTemizle] = useState({
     title: "",
     name: "",
@@ -10,7 +10,7 @@ const Canvas = ({ canvasData,handleTemizle ,setCanvasData }) => {
     id: "",
   });
   const handleSatırTemizle =(id)=>{
-    setCanvasData(canvasData.filter(item=> item.id != id))
+    setcanvasData(canvasData.filter(item=> item.id != id))
  }
 console.log(canvasData);
 
