@@ -36,12 +36,12 @@ console.log(canvasData);
           <div className="offcanvas-body">
             {canvasData.map((item, index) => (
               <div key={index}>
-                <h1>Film adı: <strong>{ item.title}</strong></h1>
-                <h1><i>{item.name}</i></h1>
+                <p>Film adı: <strong>{ item.title}</strong></p>
+                <p><i>{item.name}</i></p>
                 <p>{item.date}</p>
-                <img src={ item.img} alt="" width={"50px"} />
+                <img src={ item.img} alt="" width={"80px"} /> 
                 <button type="button" onClick={() => handleSatırTemizle(item.id)}
-            className="btn-close" aria-label="Close"
+            className="btn-close p-5 " aria-label="Close"
           ></button>
               </div>
             ))}
