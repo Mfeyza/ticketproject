@@ -1,0 +1,100 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #3e423f 0%, #5d4157 100%);;
+  
+  
+}
+.card, .list-group-item,.list-group-flush, .list-group{
+    background-color:rgba(128, 128, 128, 0.443) !important;
+    
+}
+
+.modal-content{
+    background-color: rgba(9, 79, 52, 0.654);
+   
+}
+.modal-title{
+    color: antiquewhite;
+}
+
+.fdate,.fname,.nameinput,.namedate{
+    background-color: rgba(250, 235, 215, 0.421);
+}
+
+.mbtn2{
+
+background-color:rgb(8, 99, 32) ;
+color:antiquewhite
+
+}
+
+.cardbtn{
+    background-color: rgba(33, 35, 35, 0.515);
+    font-size: 30px;
+    color: antiquewhite;
+   
+}
+
+.f{
+    font-size: 25px;
+}
+
+.card{
+ min-height: 900px !important;
+ max-height: 900px !important;
+ width: 300px !important;
+ height: 300px !important;
+
+}
+  
+
+
+
+.img{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.buybtn{
+    background-color: #4c3e49;
+}
+.buybtn:hover{
+    background-color: #4f464d;
+}
+
+.fbtn{
+    background-color: #515953;
+
+}
+
+.card-text{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: auto;
+    
+    -webkit-line-clamp: 5
+}
+.card-text::-webkit-scrollbar{
+    display: none;
+}
+
+.offcanvas-end-show, .offcanvas-end, #offcanvasWithBothOptions{
+    background-color: rgba(65, 79, 93, 0.016);
+    border: #171416 2px solid;
+}
+
+.offcanvas-body{
+    color: #171416;
+}
