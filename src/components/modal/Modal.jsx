@@ -85,7 +85,7 @@ const Modal = ({ seciliFilm }) => {
           </div>
         </div>
       </div>
-     <Canvas canvasData={canvasData} handleTemizle={() => setcanvasData([])}  />
+     <Canvas canvasData={canvasData} handleTemizle={() => setcanvasData([])} setcanvasData={setcanvasData} />
 </div>
   );
 };
