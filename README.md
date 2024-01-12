@@ -1,4 +1,9 @@
 Paribu Ticket - Movie Collection  : https://ticketproject.vercel.app/
+
+
+
+
+
 Paribu Ticket is an interactive web application designed to showcase a variety of movies, providing users with detailed information and a convenient ticket booking feature. The application focuses on presenting movies in a visually appealing format, allowing users to search, view, and save movie tickets.
 
 
