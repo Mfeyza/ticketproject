@@ -51,7 +51,7 @@ Contributions to this project are welcome. You can contribute by improving the c
 
 
 <img src="./Animationticket.gif"  width="90.5%" height="550" />
-<img src="./Animationticket2.gif"  width="90.5%" height="650" />
+<img src="./Animationticket2.gif"  width="50.5%" height="650" />
 
 
 
