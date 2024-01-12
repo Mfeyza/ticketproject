@@ -1,3 +1,57 @@
+Paribu Ticket - Movie Collection  : https://ticketproject.vercel.app/
+Paribu Ticket is an interactive web application designed to showcase a variety of movies, providing users with detailed information and a convenient ticket booking feature. The application focuses on presenting movies in a visually appealing format, allowing users to search, view, and save movie tickets.
+
+
+#Features
+A collection of movies, each presented with an image, title, summary, director, and actors.
+Interactive cards for each movie with flip animations for detailed information.
+Search functionality to find specific movies in the collection.
+A modal view for each movie to book tickets with user input for name and date selection.
+A ticket canvas to show saved movie tickets, with the option to clear the selection.
+Responsive design for optimal viewing on various devices and screen sizes.
+Installation
+To run this project on your local machine:
+
+Clone or download the repository to your computer.
+Open the project directory in your terminal.
+Install the necessary dependencies (if any) via npm install or yarn.
+Start the application by running npm start or yarn start.
+Open your web browser and navigate to localhost:3000 (or the port provided in your terminal).
+
+Usage
+Browse through the collection of movies on the main page.
+Use the search bar to find specific movies based on their titles.
+Click on a movie card to view more detailed information and the option to book tickets.
+In the modal window, enter your name and select a date to save a ticket.
+Access saved movie tickets via the "Show Tickets" button on the navigation bar.
+Clear your ticket selection if needed.
+
+
+##Technical Details
+The application is built using React.js.
+SCSS is used for styling the components.
+Bootstrap is used for responsive design and UI components.
+The movie information is stored in a local data file (JavaScript object format).
+The application utilizes React state management and event handling for interactive features.
+
+
+##Dependencies
+React.js
+SCSS
+Bootstrap
+Contributing
+Contributions to this project are welcome. You can contribute by improving the codebase, adding new features, or fixing bugs. Please follow the existing code structure and style guidelines.
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
